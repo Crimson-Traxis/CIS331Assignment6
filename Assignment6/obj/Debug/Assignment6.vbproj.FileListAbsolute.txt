@@ -1,0 +1,17 @@
+c:\users\trent\documents\visual studio 2017\Projects\Assignment6\Assignment6\bin\Debug\Assignment6.exe.config
+c:\users\trent\documents\visual studio 2017\Projects\Assignment6\Assignment6\bin\Debug\Assignment6.exe
+c:\users\trent\documents\visual studio 2017\Projects\Assignment6\Assignment6\bin\Debug\Assignment6.pdb
+c:\users\trent\documents\visual studio 2017\Projects\Assignment6\Assignment6\bin\Debug\Assignment6.xml
+c:\users\trent\documents\visual studio 2017\Projects\Assignment6\Assignment6\obj\Debug\Assignment6.vbprojResolveAssemblyReference.cache
+c:\users\trent\documents\visual studio 2017\Projects\Assignment6\Assignment6\obj\Debug\Assignment6.WindowMain.resources
+c:\users\trent\documents\visual studio 2017\Projects\Assignment6\Assignment6\obj\Debug\Assignment6.Resources.resources
+c:\users\trent\documents\visual studio 2017\Projects\Assignment6\Assignment6\obj\Debug\Assignment6.vbproj.GenerateResource.Cache
+c:\users\trent\documents\visual studio 2017\Projects\Assignment6\Assignment6\obj\Debug\Assignment6.exe
+c:\users\trent\documents\visual studio 2017\Projects\Assignment6\Assignment6\obj\Debug\Assignment6.xml
+c:\users\trent\documents\visual studio 2017\Projects\Assignment6\Assignment6\obj\Debug\Assignment6.pdb
+c:\users\trent\documents\visual studio 2017\Projects\Assignment6\Assignment6\obj\Debug\Assignment6.WindowCalculator.resources
+c:\users\trent\documents\visual studio 2017\Projects\Assignment6\Assignment6\obj\Debug\Calculator.g.vb
+c:\users\trent\documents\visual studio 2017\Projects\Assignment6\Assignment6\obj\Debug\Assignment6_MarkupCompile.cache
+c:\users\trent\documents\visual studio 2017\Projects\Assignment6\Assignment6\obj\Debug\Assignment6_MarkupCompile.lref
+c:\users\trent\documents\visual studio 2017\Projects\Assignment6\Assignment6\obj\Debug\Calculator.baml
+c:\users\trent\documents\visual studio 2017\Projects\Assignment6\Assignment6\obj\Debug\Assignment6.g.resources
