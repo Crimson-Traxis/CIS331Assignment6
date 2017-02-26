@@ -87,6 +87,7 @@
     <Compile Include="Calculator.xaml.vb">
       <DependentUpon>Calculator.xaml</DependentUpon>
     </Compile>
+    <Compile Include="Operations.vb" />
     <Compile Include="WindowCalculator.Designer.vb">
       <DependentUpon>WindowCalculator.vb</DependentUpon>
     </Compile>
