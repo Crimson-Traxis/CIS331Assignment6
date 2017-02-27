@@ -30,22 +30,20 @@ Partial Class WindowCalculator
         '
         Me.CalculatorHost.Dock = System.Windows.Forms.DockStyle.Fill
         Me.CalculatorHost.Location = New System.Drawing.Point(0, 0)
-        Me.CalculatorHost.Margin = New System.Windows.Forms.Padding(6, 6, 6, 6)
         Me.CalculatorHost.Name = "CalculatorHost"
-        Me.CalculatorHost.Size = New System.Drawing.Size(674, 829)
+        Me.CalculatorHost.Size = New System.Drawing.Size(342, 448)
         Me.CalculatorHost.TabIndex = 0
         Me.CalculatorHost.Child = Me.Calculator1
         '
         'WindowCalculator
         '
-        Me.AutoScaleDimensions = New System.Drawing.SizeF(12.0!, 25.0!)
+        Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(674, 829)
+        Me.ClientSize = New System.Drawing.Size(342, 448)
         Me.Controls.Add(Me.CalculatorHost)
-        Me.Margin = New System.Windows.Forms.Padding(6, 6, 6, 6)
-        Me.MinimumSize = New System.Drawing.Size(700, 900)
+        Me.MinimumSize = New System.Drawing.Size(358, 487)
         Me.Name = "WindowCalculator"
-        Me.Text = "WindowCalculator"
+        Me.Text = "Calculator"
         Me.ResumeLayout(False)
 
     End Sub

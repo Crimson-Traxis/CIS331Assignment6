@@ -7,3 +7,8 @@
     MODULUS = 5
     NONE = 6
 End Enum
+
+Public Enum Mode
+    FLOAT = 0
+    INT = 1
+End Enum

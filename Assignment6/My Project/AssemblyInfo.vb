@@ -8,10 +8,10 @@ Imports System.Runtime.InteropServices
 
 ' Review the values of the assembly attributes
 
-<Assembly: AssemblyTitle("Assignment6")>
-<Assembly: AssemblyDescription("")>
-<Assembly: AssemblyCompany("")>
-<Assembly: AssemblyProduct("Assignment6")>
+<Assembly: AssemblyTitle("Assignment 6")>
+<Assembly: AssemblyDescription("CIS 331 Assignment 6 : This program is an MDI calculator application.")>
+<Assembly: AssemblyCompany("Trent Killinger")>
+<Assembly: AssemblyProduct("Assignment 6")>
 <Assembly: AssemblyCopyright("Copyright ©  2017")>
 <Assembly: AssemblyTrademark("")>
 

@@ -5,13 +5,13 @@
              xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
              xmlns:local="clr-namespace:Assignment6">
 
-    <Grid MinHeight="450" MinWidth="325" Background="White" KeyDown="Grid_KeyDown">
+    <Grid MinHeight="450" MinWidth="325" Background="White">
         <Grid.RowDefinitions>
             <RowDefinition Height="1*" MaxHeight="80px"/>
             <RowDefinition Height="2*" MaxHeight="140px"/>
             <RowDefinition Height="4*"/>
         </Grid.RowDefinitions>
-        <TextBox x:Name="textboxOutput" Height="40" Grid.Row="0" FontSize="25" VerticalContentAlignment="Center" Margin="5,0,5,0" IsReadOnly="True"/>
+        <TextBox x:Name="textboxOutput" HorizontalContentAlignment="Right" Height="40" Grid.Row="0" FontSize="25" VerticalContentAlignment="Center" Margin="5,0,5,0" IsReadOnly="True" Text="0"/>
         <DockPanel Grid.Row="1" LastChildFill="True" Height="128" VerticalAlignment="Top">
             <Grid MinWidth="130" DockPanel.Dock="Right">
                 <Grid.RowDefinitions>
@@ -70,15 +70,15 @@
                             <RowDefinition Height="1*"/>
                             <RowDefinition Height="1*"/>
                         </Grid.RowDefinitions>
-                        <Button x:Name="buttonMod" Content="%" Width="50" Height="50" Grid.Row="0" Grid.Column="0"/>
-                        <Button x:Name="buttonExponential" Content="^" Width="50" Height="50" Grid.Row="0" Grid.Column="1"/>
-                        <Button x:Name="buttonMultiply" Content="*" Width="50" Height="50" Grid.Row="1" Grid.Column="0"/>
-                        <Button x:Name="buttonDivide" Content="/" Width="50" Height="50" Grid.Row="1" Grid.Column="1"/>
-                        <Button x:Name="buttonPlus" Content="+" Width="50" Height="50" Grid.Row="2" Grid.Column="0" Margin="8,6.5,7,0" VerticalAlignment="Top"/>
-                        <Button x:Name="buttonSubstract" Content="-" Width="50" Height="50" Grid.Row="2" Grid.Column="1"/>
+                        <Button x:Name="buttonMod" Content="_%" Width="50" Height="50" Grid.Row="0" Grid.Column="0"/>
+                        <Button x:Name="buttonExponential" Content="_^" Width="50" Height="50" Grid.Row="0" Grid.Column="1"/>
+                        <Button x:Name="buttonMultiply" Content="_*" Width="50" Height="50" Grid.Row="1" Grid.Column="0"/>
+                        <Button x:Name="buttonDivide" Content="_/" Width="50" Height="50" Grid.Row="1" Grid.Column="1"/>
+                        <Button x:Name="buttonPlus" Content="_+" Width="50" Height="50" Grid.Row="2" Grid.Column="0" Margin="8,6.5,7,0" VerticalAlignment="Top"/>
+                        <Button x:Name="buttonSubstract" Content="_-" Width="50" Height="50" Grid.Row="2" Grid.Column="1"/>
 
                     </Grid>
-                    <Button x:Name="buttonEquals" Content="=" Width="115" Height=" 50" Grid.Row=" 1"/>
+                    <Button x:Name="buttonEquals" Content="_=" Width="115" Height=" 50" Grid.Row=" 1"/>
                 </Grid>
             </Grid>
             <Grid DockPanel.Dock="Left" Width="200" HorizontalAlignment="Left">
@@ -93,18 +93,18 @@
                     <RowDefinition Height="1*"/>
                     <RowDefinition Height="1*"/>
                 </Grid.RowDefinitions>
-                <Button x:Name="button1" Content="1" Width="50" Height="50" Grid.Row="2" Grid.Column="0"/>
-                <Button x:Name="button2" Content="2" Width="50" Height="50" Grid.Row="2" Grid.Column="1"/>
-                <Button x:Name="button3" Content="3" Width="50" Height="50" Grid.Row="2" Grid.Column="2"/>
-                <Button x:Name="button4" Content="4" Width="50" Height="50" Grid.Row="1" Grid.Column="0"/>
-                <Button x:Name="button5" Content="5" Width="50" Grid.Row="1" Grid.Column="1" Margin="8.5,7,8.5,6.5"/>
-                <Button x:Name="button6" Content="6" Width="50" Height="50" Grid.Row="1" Grid.Column="2"/>
-                <Button x:Name="button7" Content="7" Width="50" Height="50" Grid.Row="0" Grid.Column="0"/>
-                <Button x:Name="button8" Content="8" Width="50" Height="50" Grid.Row="0" Grid.Column="1"/>
-                <Button x:Name="button9" Content="9" Width="50" Height="50" Grid.Row="0" Grid.Column="2"/>
+                <Button x:Name="button1" Content="_1" Width="50" Height="50" Grid.Row="2" Grid.Column="0"/>
+                <Button x:Name="button2" Content="_2" Width="50" Height="50" Grid.Row="2" Grid.Column="1"/>
+                <Button x:Name="button3" Content="_3" Width="50" Height="50" Grid.Row="2" Grid.Column="2"/>
+                <Button x:Name="button4" Content="_4" Width="50" Height="50" Grid.Row="1" Grid.Column="0"/>
+                <Button x:Name="button5" Content="_5" Width="50" Grid.Row="1" Grid.Column="1" Margin="8.5,7,8.5,6.5"/>
+                <Button x:Name="button6" Content="_6" Width="50" Height="50" Grid.Row="1" Grid.Column="2"/>
+                <Button x:Name="button7" Content="_7" Width="50" Height="50" Grid.Row="0" Grid.Column="0"/>
+                <Button x:Name="button8" Content="_8" Width="50" Height="50" Grid.Row="0" Grid.Column="1"/>
+                <Button x:Name="button9" Content="_9" Width="50" Height="50" Grid.Row="0" Grid.Column="2"/>
                 <Button x:Name="buttonPosNeg" Content="+/-" Width="50" Height="50" Grid.Row="3" Grid.Column="0"/>
-                <Button x:Name="button0" Content="0" Width="50" Height="50" Grid.Row="3" Grid.Column="1"/>
-                <Button x:Name="buttonPoint" Content="." Width="50" Height="50" Grid.Row="3" Grid.Column="2"/>
+                <Button x:Name="button0" Content="_0" Width="50" Height="50" Grid.Row="3" Grid.Column="1"/>
+                <Button x:Name="buttonPoint" Content="_." Width="50" Height="50" Grid.Row="3" Grid.Column="2"/>
             </Grid>
         </DockPanel>
     </Grid>
