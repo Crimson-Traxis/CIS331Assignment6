@@ -1,4 +1,16 @@
-﻿Public Enum Operations
+﻿'------------------------------------------------------------ 
+'-                File Name : Enumerations.vb               - 
+'-                Part of Project: Assignment 6             - 
+'------------------------------------------------------------
+'-                Written By: Trent Killinger               - 
+'-                Written On: 2-24-17                       - 
+'------------------------------------------------------------ 
+'- File Purpose:                                            - 
+'-                                                          - 
+'- This file contains the project enumerations              -
+'------------------------------------------------------------
+
+Public Enum Operations
     ADD = 0
     SUBTRACT = 1
     MULTIPLY = 2
