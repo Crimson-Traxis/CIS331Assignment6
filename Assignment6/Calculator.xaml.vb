@@ -931,4 +931,29 @@ Public Class Calculator
         End If
         Return False
     End Function
+
+    '------------------------------------------------------------ 
+    '-        Subprogram Name: textboxOutput_TextChanged        - 
+    '------------------------------------------------------------
+    '-                Written By: Trent Killinger               - 
+    '-                Written On: 2-26-17                       - 
+    '------------------------------------------------------------
+    '- Subprogram Purpose:                                      - 
+    '-                                                          - 
+    '- This subroutine checks for infinity and nan characters   -
+    '- replaces them with 0                                     -
+    '------------------------------------------------------------
+    '- Parameter Dictionary:                                    - 
+    '- sender – Identifies which particular control raised the  - 
+    '-          click event                                     - 
+    '- e – Holds the EventArgs object sent to the routine       -    
+    '------------------------------------------------------------ 
+    '- Local Variable Dictionary:                               - 
+    '- (none)                                                   -
+    '------------------------------------------------------------
+    Private Sub textboxOutput_TextChanged(sender As Object, e As System.Windows.Controls.TextChangedEventArgs) Handles textboxOutput.TextChanged
+        If textboxOutput.Text = "∞" Or textboxOutput.Text = "NaN" Then
+            textboxOutput.Text = 0
+        End If
+    End Sub
 End Class
